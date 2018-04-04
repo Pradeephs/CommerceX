@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_menu"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/offers_menu"
+            android:icon="@drawable/ic_offers"
+            android:title="Offers" />
+        <item
+            android:id="@+id/categories_menu"
+            android:icon="@drawable/ic_categories"
+            android:title="Categories" />
+        <item
+            android:id="@+id/cart_menu"
+            android:icon="@drawable/ic_my_cart"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/oders_menu"
+            android:icon="@drawable/ic_my_orders"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/wishlist_menu"
+            android:icon="@drawable/ic_wishlist"
+            android:title="Wishlist" />
+        <item
+            android:id="@+id/wallet_menu"
+            android:icon="@drawable/ic_wallet"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/settings_menu"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/more_menu"
+            android:icon="@drawable/ic_more"
+            android:title="More" />
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/user_details_menu"
+            android:icon="@drawable/ic_sign_out"
+            android:title="User Details" />
+        <item
+            android:id="@+id/sign_in_menu"
+            android:icon="@drawable/ic_sign_out"
+            android:title="Sign In" />
+    </group>
+</menu>
+

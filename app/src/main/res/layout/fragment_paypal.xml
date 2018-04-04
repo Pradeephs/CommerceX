@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_paypal_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kryptoblocks.commercex.payment.PaypalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/fragment_signup_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@color/googleBlue"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/payapl_backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_arrow_back_black_24dp"></ImageView>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="14dp"
+            android:text="PayPal"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/paypal" />
+
+        <TextView
+            android:id="@+id/paypal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="Log in with PayPal"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/paypal_user_id"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/layout_border"
+            android:hint="User ID"
+            android:textColorHint="@color/googleBlue" />
+
+        <EditText
+            android:id="@+id/paypal_password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/layout_border"
+            android:hint="Password"
+            android:textColorHint="@color/googleBlue" />
+
+        <Button
+            android:id="@+id/checkout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/googleBlue"
+            android:text="Log In"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/forget_email_paypal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="4dp"
+            android:background="#fcede3"
+            android:text="Forgotten your Email Adress or Password?"
+            android:textAllCaps="false"
+            android:textColor="#4A90E2"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/signup_paypal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="4dp"
+            android:background="#eaebfa"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="#4A90E2"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/copyright_paypal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Privacy Paypal"
+            android:textColor="#969faa"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/copyrightt_paypal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:text="Copyright@ 1999-2005 paypal All Rights reserved"
+            android:textColor="#969faa"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
